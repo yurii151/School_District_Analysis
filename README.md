@@ -83,4 +83,60 @@ The new one:
   - Much like the math grades, the grades from Thomas High reading look alot different. The 9th graders have NaN for their scores, while the averages for the other grades are unchanged.
   - This comparison just confirms that the freshman reading grades were properly removed. 
 
+### Scores by School Spending
 
+Another thing we can look at is how the removal of the grades effects the scores by school spending. The original analysis looked like this:
+
+<img width="841" alt="Screen Shot 2021-11-26 at 3 02 53 PM" src="https://user-images.githubusercontent.com/92888170/143660174-69452a54-75ad-43cf-b815-fde8e865f8bf.png">
+
+and the updated one:
+
+<img width="841" alt="Screen Shot 2021-11-26 at 3 04 37 PM" src="https://user-images.githubusercontent.com/92888170/143660215-deddf930-91e6-48f5-9213-c0101e888d26.png">
+
+For this comparison, we need to look at the row for the spending range of $630-$644 since Thomas High School spends $638 per student.
+
+  - The average math score decreases from 78.52 to 78.50
+  - The average reading score increases from 81.62 to 81.64
+  - The percent of students passing math decreased from 73.48 to 66.89
+  - The percent of students passing reading decreased from 84.39 to 77.48
+  - The percent of overall students passing decreased from 62.86 to 56.39
+
+### Scores by School Size
+
+We can also look how this new analysis effects the grades by school size. The original analysis:
+
+<img width="841" alt="Screen Shot 2021-11-26 at 3 11 08 PM" src="https://user-images.githubusercontent.com/92888170/143660434-1a403fd4-16fe-49ca-aa47-36b697d9009a.png">
+
+The new analysis:
+
+<img width="841" alt="Screen Shot 2021-11-26 at 3 12 03 PM" src="https://user-images.githubusercontent.com/92888170/143660484-350d0e0a-f07e-4064-a135-1f11b0a166c6.png">
+
+Thomas High School had an population of 1635 students so we look at how the medium size schools changed
+  - The average math score decreases from 83.37 to 83.36
+  - The average reading score increases from 83.86 to 83.87
+  - The percent of students passing math decreased from 93.60 to 88.33
+  - The percent of students passing reading decreased from 96.79 to 91.26
+  - The percent of overall students passing decreased from 90.62 to 85.45
+
+### Scores by School Type
+
+The last thing we can analyze is how the dropped grades effected the results of each school type, District or Charter
+
+The original table looked like this:
+
+<img width="718" alt="Screen Shot 2021-11-26 at 3 18 03 PM" src="https://user-images.githubusercontent.com/92888170/143660669-2f9c7685-c102-4f82-a138-a4ac55889067.png">
+
+While the updated one looked a little different:
+
+<img width="718" alt="Screen Shot 2021-11-26 at 3 19 01 PM" src="https://user-images.githubusercontent.com/92888170/143660698-54c90e9c-4f60-4ca5-a8fa-05985f08d9d4.png">
+
+Thomas High School is a charter school so to see the changes we need to look at the charter row:
+  - The average math score decreases from 83.473 to 83.465
+  - The average reading score increases from 83.896 to 83.902
+  - The percent of students passing math decreased from 93.620 to 90.325
+  - The percent of students passing reading decreased from 96.586 to 93.131
+  - The percent of overall students passing decreased from 90.432 to 87.198
+
+## Summary
+
+After reviewing how the NAN scores effected the school district analysis, we can come to some conclusions. In each case, of each analysis where Thomas High was included, the percentage of students who passed was less than the original analysis. This might be due to the fact that altough the freshman students grades were replaced, we still counted them in the student counts. Another thing that I noticed was that during the new anlysis, the reading grades increased. This means that the freshman at Thomas High were not perfroming well compared to the other grades in reading. I also noticed that after removing the freshman grades, Thomas High School was performing more like a district school even though they had the resources of a charter school. The last thing I noticed was that the medium school average scores didn't change much. THis might suggest that school size, not school buget may be a more important factor in determining how students perform in school. 
